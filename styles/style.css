@@ -35,7 +35,7 @@
 }
 
 
-.address__punkt{
+.address__list{
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -57,6 +57,7 @@
 
 .overlay{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content:space-between; /*space-between Делает заголовок сверху параграф снизу*/
     top: 0;
@@ -75,6 +76,7 @@
     white-space: pre-line; /*указывает браузеру, как обрабатывать пробелы в тексте.*/
     text-transform: uppercase;
     padding-top: 11%;
+    padding-bottom: 3%;
     
 }
 
@@ -147,12 +149,12 @@
 
 .lots__card-list{
     display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: space-between; /* Распределяет карточки по доступному пространству */
     gap: 24px;
-    padding: 2% 0 0 24px;
+    padding: 2% 2% 0 24px;
     list-style-type: none;
     z-index: 0;
-    
-    
 }
 
 .card-link{
@@ -162,6 +164,7 @@
 
 
 .lots__card-list-item{
+    
     width: 334px;
     height: 596px;
     background-color: black;
@@ -270,18 +273,18 @@
 .about__text{
     font-size: 20px;
     padding-left: 2%;
+    padding-right: 3%;
+    padding-bottom: 3%;
 }
 
-.about__text-one{
-    padding-bottom: 2%;
-}
+
 
 /*блок подвала*/
 
 .footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 19%;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 15%;
     padding-left: 5%;
     padding-bottom: 10%;
 }
