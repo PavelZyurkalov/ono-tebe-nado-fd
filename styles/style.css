@@ -6,16 +6,16 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 70px 0px 100px 0px;
+    padding: 90px 0px 100px 0px;
 
 }
 
 .header__links-list{
     display: flex;
-    gap: 30px;
+    gap: 31px;
     list-style: circle;
     font-size: 18px;
-    padding-left: 11%;
+    padding-left: 52px;
     
 }
 
@@ -31,7 +31,7 @@
 }
 
 .header__address{
-    padding-left: 38%;
+    padding-left: 180px;
 }
 
 
@@ -48,6 +48,8 @@
     display: flex;
     position: relative;
     background-color: black;
+    background-size: cover;
+    background-repeat:no-repeat;
     background-image: url(/images/cover.jpg);
     color: white;
     z-index: 1;
@@ -91,12 +93,14 @@
     font-size: 100px;
     padding-left: 4%;
     
+    
 }
 
 .aligned-text_center{
     display: block;
     font-size: 100px;
     text-align: center;
+    padding-left: 23px;
     
 }
 
@@ -207,6 +211,7 @@
     color: white;
     text-transform: uppercase; /*все с заглавной буквы*/
     text-decoration: underline; /*подчеркивание текста*/
+    
 }
 
 .card__text{
@@ -215,7 +220,7 @@
     font-size: 20px;
     text-align: left;
     padding: 48px 40px 48px 40px;
-    text-decoration: underline; 
+    text-decoration: none; 
     
 }
 
@@ -239,12 +244,12 @@
 }
 
 .about__column{
-    margin-top: 35%;
+    margin-top: 260px;
 }
 
 .about__position-logo{
-    margin-top: 44%;
-    margin-left: 20%;
+    margin-top: 158px;
+    margin-left: 70px;
 }
 
 .about__div-logo{
@@ -255,6 +260,7 @@
     border-radius: 100%;
     width: 240px;
     height: 240px;
+    
     
 }
 
@@ -274,7 +280,7 @@
     font-size: 20px;
     padding-left: 2%;
     padding-right: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 22px;
 }
 
 
@@ -284,9 +290,16 @@
 .footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 15%;
-    padding-left: 5%;
-    padding-bottom: 10%;
+    padding-top: 156px;
+    padding-bottom: 100px;
+}
+
+.footer__position_address{
+    padding-left: 50px;
+}
+
+.footer__position_social{
+    padding-left: 80px;
 }
 
 .footer__menu-list{
@@ -299,8 +312,8 @@
     display: flex;
     justify-content: start;
     list-style: none;
-    gap: 16%;
-    padding-left: 16%;
+    gap: 45px;
+    
 }
 
 .footer__social-icon{
