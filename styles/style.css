@@ -67,7 +67,7 @@
     background-color: black;
     background-size: cover;
     background-repeat:no-repeat;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     color: white;
     z-index: 0;
     
@@ -205,17 +205,17 @@
 }
 
 .lots__card--film {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 
 }
 
 .lots__card--book {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-position: center;
 }
 
 .lots__card--picture{
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     
 }
 
