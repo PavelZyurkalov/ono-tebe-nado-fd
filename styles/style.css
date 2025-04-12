@@ -191,9 +191,7 @@
     
 }
 
-.lots__card--film,
-.lots__card--book,
-.lots__card--picture {
+.lots__card {
     display: flex;
     flex-direction: column; /* Устанавливаем вертикальное направление */
     justify-content: space-between; /* Распределяем пространство между элементами */
