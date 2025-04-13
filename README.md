@@ -1,1 +1,0 @@
-https://github.com/PavelZyurkalov/ono-tebe-nado-fd/tree/main
