@@ -15,13 +15,15 @@
     gap: 31px;
     font-size: 18px;
     margin-left: 53px;
-    margin-top: -4px;
     list-style: circle;
-    
+}
+.header__links-list-main{
+    list-style: none;
 }
 
-.header__link-item--main{
-    list-style: none;
+.header__link-item--activ{
+    text-decoration: none;
+    border: none;
 }
 
 .header__logo{
@@ -29,34 +31,31 @@
     height: 105px;
 }
 
-.header__address{
+.address{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: start;
     font-size: 18px;
     margin-left: 183px;
-    margin-top: -10px;
-    
 }
 
-.header__phone{
+.address__phone{
     text-decoration: none; 
     border-bottom: 1px solid black; 
     padding-bottom: 1px; 
     width: 140px;
 }
 
-.header__email{
+.address__email{
     text-decoration: none; 
     border-bottom: 1px solid black; 
     padding-bottom: 1px; 
     width: 140px;
 }
 
-.header__location{
+.address__location{
     padding-top: 5px;
 }
-
 
 /* Блок cover*/
 
@@ -297,35 +296,6 @@
     padding-bottom: 100px;
 }
 
-.footer__address{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    font-size: 18px;
-    margin-left: 50px;
-    
-}
-
-.footer__phone{
-    text-decoration: none; 
-    border-bottom: 1px solid black; 
-    padding-bottom: 2px; 
-    width: 135px;
-}
-
-.footer__email{
-    text-decoration: none; 
-    border-bottom: 1px solid black; 
-    padding-bottom: 2px; 
-    width: 135px;
-}
-
-.footer__location{
-    margin-top: 5px;
-}
-
-
-
 .footer__menu-list{
     list-style: none;
     text-align: center;
@@ -337,6 +307,11 @@
     border-bottom: 1px solid black; 
     padding-bottom: 1px; 
 }
+
+.footer__link_active{
+    text-decoration: none;
+}
+
 
 .footer__social-list{
     display: flex;
