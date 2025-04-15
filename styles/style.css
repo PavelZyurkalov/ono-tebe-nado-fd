@@ -21,12 +21,12 @@
     list-style: none;
 }
 
-.link__item__activ{
+.link__item__active{
     text-decoration: none;
     border: none;
 }
 
-.menu__list__border__bottom{
+.menu__link{
     text-decoration: none;
     border-bottom: 1px solid black;
 }
@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    
+    font-style: normal;
 }
 
 .header__address{
@@ -52,28 +52,16 @@
     margin-left: 50px;
 }
 
-.address__phone{
+.address__link{
     text-decoration: none; 
     border-bottom: 1px solid black;
     padding-top: 1px; 
     padding-bottom: 1px;
     width: 133px;
-    font-style: normal;
-    
-}
-
-.address__email{
-    text-decoration: none; 
-    border-bottom: 1px solid black; 
-    padding-top: 1px;
-    padding-bottom: 1px; 
-    width: 133px;
-    font-style: normal;
 }
 
 .address__location{
     padding-top: 4px;
-    font-style: normal;
 }
 
 /* Блок cover*/
@@ -106,10 +94,6 @@
     
 }
 
-.letter__spacing__extended{
-    letter-spacing: 0.3em;  /*задаёт межбуквенное расстояние — интервал между символами в тексте.*/
-}
-
 .cover__title{
     display: flex;
     flex-direction: column;
@@ -122,19 +106,20 @@
     font-size: 100px;
 }
 
-.cover__title__part__left{
-    display: block;
+.cover__title__text{
+    display: flex;
+    letter-spacing: 0.3em;  /*задаёт межбуквенное расстояние — интервал между символами в тексте.*/
+}
+.cover__title__text__left{
     padding-left: 50px;
     padding-top: 130px;
 }
 
-.cover__title__part__center{
-    display: flex;
+.cover__title__text__center{
     padding-left: 380px;
 }
 
-.cover__title__part__right{
-    display: flex;
+.cover__title__text__right{
     padding-left: 665px;
 }
 
@@ -312,12 +297,14 @@
     justify-content: start;
     list-style: none;
     gap: 48px;
-    width: 318px;
-}
-
-.footer__position__social{
     padding-left: 78px;
 }
+
+.footer__social__icon{
+    width: 48px;
+}
+
+
 
 
 
